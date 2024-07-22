@@ -1,0 +1,397 @@
+body{
+    background-color: #FFE3E1;
+
+}
+ /* --------------Nav Bar-------- */
+.nav{
+    /* border: solid red; */
+    /* height: 80px; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.514);
+    border-radius: 10px;
+    border: solid #fc66663f;
+
+}
+
+.user{
+    /* border: solid black; */
+    height: 70px;
+    margin: 10px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    background-color: #fc6666;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.menuLogo{
+    /* border: solid black; */
+    /* height: 70px; */
+    /* margin: 10px; */
+    width: 50%;
+
+}
+
+.name{
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fc6666;
+
+}
+
+.logo{
+    /* border: solid black; */
+    /* height: 70px; */
+    margin-top: 10px;
+    width: 50%;
+
+}
+
+
+
+.logoPic{
+    width: 100%;
+    /* height: 100%; */
+    /* border-radius: 50%; */
+}
+
+.ddm{
+    /* border: solid black; */
+    height: 70px;
+    margin: 10px;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.userLogo{
+    width: 100%;
+    /* border: solid black; */
+}
+
+.heartLogo{
+    width: 50%;
+    /* border: solid black; */
+}
+
+/* --------------------main pic------------- */
+
+.recipes{
+    /* border: solid blue; */
+    height: 400px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tresleches{
+    /* border: solid pink; */
+    /* height: 350px; */
+    margin: 5px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFD1D1;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.tresleches:hover{
+    width: 40%;
+    background-color: #fcb1b1;
+
+}
+
+.tresl{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+
+}
+
+.flan{
+    /* border: solid pink; */
+    /* height: 350px; */
+    margin: 5px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFD1D1;
+    border-radius: 5%;
+    padding: 10px;
+
+}
+
+.flan:hover{
+    width: 40%;
+    background-color: #fcb1b1;
+
+}
+
+.flanPic{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+
+}
+
+.churros{
+    /* border: solid pink; */
+    /* height: 350px; */
+    margin: 5px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFD1D1;
+    border-radius: 5%;
+    padding: 10px;
+
+}
+
+.churros:hover{
+    width: 40%;
+    background-color: #fcb1b1;
+
+}
+
+.churrosPic{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+/* --------Page 1------------- */
+
+.recipes1{
+    /* border: solid blue; */
+    /* height: 400px; */
+    margin-top: 10px;
+    background-color: #FFD1D1;
+    border-radius: 10px;
+
+}
+
+.tresleches1{
+    /* border: solid pink; */
+    /* height: 350px; */
+    margin: 5px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #FFD1D1; */
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.tresl1{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(197, 20, 20);
+    margin-top: 15px; 
+    margin-bottom: 15px;
+
+}
+
+.main1{
+    /* border: solid purple; */
+    display: flex;
+}
+
+.tables-content{
+    /* border: solid green; */
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    /* align-items: center; */
+
+}
+
+.timeDuration-Text{
+    margin-right: 8px;
+    
+}
+
+.timeDuration{
+    /* border: solid black; */
+    display: flex;
+    /* width: 100%; */
+    margin: 5px;
+    flex-wrap: wrap;
+    background-color:  #fff5e457;
+    border-radius: 5px;
+    color: #fc6666;
+    font-size: 15px;
+}
+
+table, th, td{
+    border:1px solid #ffb5b0 ;
+    /* margin: 5px; */
+    text-align: center;
+    background-color: #fff5e457;
+    color: #fc6666;
+    
+  } 
+
+th{
+    background-color: #fc66663b;
+}
+
+.cake-table{
+   /* border: solid yellow; */
+   width: 95%;
+   margin: 5px;
+   border-radius: 5px;
+}
+
+.liquid-table{
+    width: 95%;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.tableIng1{
+    /* border: solid black; */
+    background-color: #FFE3E1;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.Text1{
+    color:  #fff5e4;
+    background-color: #fc666657;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.directions1{
+    background-color: #FFE3E1;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.Text2{
+    color: #fc6666;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.rating{
+        /* border: solid black; */
+        display: flex;
+        /* width: 100%; */
+        margin: 5px;
+        flex-wrap: wrap;
+        background-color: #fc6666b8;
+        border-radius: 5px;
+        color:#fff5e4;
+        font-size: 20px;
+        margin-top: 10px;
+    
+}
+
+.Text3{
+    font-weight: Bold;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.Ranking{
+    display: flex;
+    margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+#rankin-text{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/* -----Page 2------ */
+
+.flan1{
+       /* border: solid pink; */
+    /* height: 350px; */
+    margin: 5px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #FFD1D1; */
+    border-radius: 5%;
+    padding: 10px;
+}
+
+/* --------Page 4-------- */
+
+.user-log{
+ /* border: solid black; */
+ /* width: 100%; */
+ margin: 5px;
+ background-color: #fc6666b8;
+ border-radius: 5px;
+ color:#fff5e4;
+ font-size: 20px;
+ padding: 10px;
+
+}
+
+
